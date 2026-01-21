@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body {
+    font-family: 'Inter', sans-serif;;;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #2c3e50;
+    color: whitesmoke;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: all 0.3s ease; 
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: #3498db;
+    color: #ffffff;
+    transform: translateY(-3px); 
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #bdc3c7;
+    margin-top: 5px;
+}
+
+section h2 {
+    font-family: 'Inter', sans-serif;;
+    letter-spacing: 0px;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section h3 {
+    font-family: 'Inter', sans-serif;;
+    letter-spacing: 0px;
+    display: block;
+    font-size: 10px;
+    font-weight: 400px;
+    text-transform: lowercase;
+}
+
+img[usemap="#spacemap"] {
+    width: 850px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #333;
+}
+
+main section {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+main img {
+    width: 700px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+main p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
