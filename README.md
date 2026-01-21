@@ -9,17 +9,19 @@ This project is an informational website built for the **Second Trimester** of *
 * **Image Mapping:** Interactive navigation via Rectangle, Circle, and Polygon shapes.
 
 ## Directory Structure
-LE#3-VIBECODERS/ 
-├── css/ 
-
-│ └── style.css # External Styling 
-├── img/ 
-
-│ └── hero-space.jpg
-├── index.html # Main Hub 
-├── page1.html # The Sun 
-├── page2.html # Mars 
-└── page3.html # Saturn
+```text
+LE#3-VIBECODERS/
+├── css/
+│   └── style.css      # Main external stylesheet
+├── img/
+│   ├── hero-space.jpg # Navigation hub image
+│   ├── sun.webp       # Page 1 asset
+│   ├── mars.jpg       # Page 2 asset
+│   └── saturn.jpg     # Page 3 asset
+├── index.html         # Interactive Navigation Hub
+├── page1.html         # The Sun
+├── page2.html         # Mars
+└── page3.html         # Saturn
 
 ## Disclaimer
 Created by Serrano, Abraham, and Cinco. If ever a total planetary alignment failure happens (broken image map), make sure your browser width is set to 1000px.
