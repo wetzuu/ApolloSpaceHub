@@ -11,8 +11,10 @@ This project is an informational website built for the **Second Trimester** of *
 ## Directory Structure
 LE#3-VIBECODERS/ 
 ├── css/ 
+
 │ └── style.css # External Styling 
 ├── img/ 
+
 │ └── hero-space.jpg
 ├── index.html # Main Hub 
 ├── page1.html # The Sun 
